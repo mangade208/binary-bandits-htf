@@ -1,25 +1,28 @@
-# Project - DC Pay
+# EduChain: Decentralized Online Learning Platform
 
-## Problem statement
+## Overview
 
-Traditional energy systems are often centralized, relying on large power plants and extensive distribution networks, which can lead to inefficiencies, environmental concerns, and limited accessibility for consumers. With the rise of renewable energy sources like solar power, there's a growing interest in decentralized energy solutions that empower individual households and communities to generate, sell, and buy renewable energy locally.
+EduChain is a decentralized online learning platform that leverages blockchain technology to tokenize course ownership and combat piracy in online education. By tokenizing courses as non-fungible tokens (NFTs) on the blockchain, EduChain ensures transparent ownership records and enables users to resell courses within the platform.
 
-## Problem Statement:
+## Features
 
-1. **Lack of Market Access**: Many individuals or organizations with solar energy generation capabilities face challenges in accessing markets to sell their excess energy efficiently. Similarly, consumers interested in purchasing renewable energy may find it difficult to identify and connect with local producers.
-2. **Trust and Transparency**: The current centralized energy market often lacks transparency, making it difficult for consumers to trust the sources and pricing of the energy they purchase. Decentralized platforms need to address these concerns by providing transparent and immutable records of energy production, consumption, and transactions.
-3. **Complexity in Transactions**: Current energy trading processes involve multiple intermediaries, complex regulations, and high transaction costs, particularly for small-scale producers and consumers. Simplifying and streamlining the buying and selling process is essential to encourage wider participation in decentralized energy markets.
-4. **Integration of Renewable Energy Sources**: Integrating diverse renewable energy sources, such as solar, wind, and hydro, into a decentralized platform presents technical challenges related to energy management, grid stability, and interoperability between different energy systems.
-5. **Regulatory Compliance**: Decentralized energy markets must navigate regulatory frameworks governing energy trading, grid connections, tariffs, and incentives, which vary across regions and jurisdictions. Ensuring compliance while promoting innovation and market growth is crucial for the success of such platforms.
+- *Tokenized Course Ownership*: Each course is represented by a unique NFT on the blockchain, ensuring transparent ownership and transferability.
+- *Incentivized Course Completion*: Users who complete courses within a specified timeframe gain the privilege to resell them at a price of their choosing.
+- *Piracy Mitigation*: By reducing course prices through resale, EduChain mitigates piracy and unauthorized sharing of course content.
+- *Dynamic Pricing*: Users can set their own prices when reselling courses, promoting affordability while ensuring fair compensation for educators.
+- *Educator Partnerships*: EduChain collaborates with educators and content creators to bring high-quality courses to the platform.
+- *Decentralized Governance*: The platform operates on a decentralized governance model, allowing users to participate in decision-making processes.
 
-Objectives:
-1. Develop a **decentralized platform** that connects solar energy producers with consumers, enabling peer-to-peer energy trading in a transparent and efficient manner.
-2. Ensure **trust and transparency** through blockchain or similar technologies, providing immutable records of energy transactions and production data.
-3. Simplify the buying and selling process through **user-friendly interfaces, automated smart contracts, and low transaction fees.**
-4. Integrate various renewable energy sources to promote **energy diversity and grid resilience**, leveraging advanced energy management and forecasting techniques.
-5. Navigate regulatory complexities by working closely with policymakers, regulators, and industry stakeholders to establish compliant frameworks and promote market innovation.
+## Tech Stack
 
-Outcome:
+- *Blockchain*: Ethereum for tokenization and smart contract functionality.
+- *Frontend*: React.js for the user interface.
+- *Backend*: Node.js for server-side logic.
+- *Database*: MongoDB for storing user data and course information.
+- *Authentication*: JWT (JSON Web Tokens) for user authentication and authorization.
 
-- A decentralized solar selling and buying platform addresses the challenges of the current centralized energy system by **empowering individuals and communities to participate in the renewable energy market**. 
-- Through innovative technology, transparent market mechanisms, and regulatory collaboration, the platform aims to **accelerate the transition to a cleaner, more equitable energy ecosystem.**
+## Getting Started
+
+To run the EduChain platform locally, follow these steps:
+
+1. Clone the repository:
