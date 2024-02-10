@@ -1,10 +1,10 @@
-import LogIn from "./LogIn";
-import SignIn from "./SignIn";
+import { Button } from "@/components/ui/button";
+import Navbar from "./Navbar";
 
 export default function Home() {
   return (
     <div>
-      <LogIn />
+      <Navbar />
     </div>
   );
 }
