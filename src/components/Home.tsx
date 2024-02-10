@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "./Navbar";
+import Card from "./Card";
+import janeImg from "../assets/images/testimonial-1.png"
+import jacobImg from "../assets/images/testimonial-2.png"
 
 export default function Home() {
   return (
@@ -21,6 +24,10 @@ export default function Home() {
             Enroll Now
           </Button>
         </div>
+      </div>
+      <div className="flex justify-around">
+        <Card courseFeedback={"This is a great course. It helped me a lot. Thank you"} name={"Jane Cooper"} profession={"Developer, Sony"} profilePhoto={janeImg} ></Card>
+        <Card courseFeedback={"Amazing Work! Well done!"} name={"Jacob Jones"} profession={"Designer, Facebook"} profilePhoto={jacobImg} ></Card>
       </div>
     </div>
   );
