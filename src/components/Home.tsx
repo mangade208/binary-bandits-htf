@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "./Navbar";
 import Card from "./Card";
-import janeImg from "../assets/images/testimonial-1.png"
-import jacobImg from "../assets/images/testimonial-2.png"
+import janeImg from "../assets/images/testimonial-1.png";
+import jacobImg from "../assets/images/testimonial-2.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -20,14 +21,28 @@ export default function Home() {
             (NFTs) on the blockchain, EduChain ensures transparent ownership
             records and enables users to resell courses within the platform.
           </p>
-          <Button className="bg-orange rounded-3xl p-7 text-lg ite my-3 font-bold">
-            Enroll Now
-          </Button>
+          <Link to="login">
+            <Button className="bg-orange rounded-3xl p-7 text-lg ite my-3 font-bold">
+              Enroll Now
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="flex justify-around">
-        <Card courseFeedback={"This is a great course. It helped me a lot. Thank you"} name={"Jane Cooper"} profession={"Developer, Sony"} profilePhoto={janeImg} ></Card>
-        <Card courseFeedback={"Amazing Work! Well done!"} name={"Jacob Jones"} profession={"Designer, Facebook"} profilePhoto={jacobImg} ></Card>
+        <Card
+          courseFeedback={
+            "This is a great course. It helped me a lot. Thank you"
+          }
+          name={"Jane Cooper"}
+          profession={"Developer, Sony"}
+          profilePhoto={janeImg}
+        ></Card>
+        <Card
+          courseFeedback={"Amazing Work! Well done!"}
+          name={"Jacob Jones"}
+          profession={"Designer, Facebook"}
+          profilePhoto={jacobImg}
+        ></Card>
       </div>
     </div>
   );
