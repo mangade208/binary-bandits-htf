@@ -1,5 +1,6 @@
 import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import { LuPenSquare } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -20,8 +21,10 @@ export default function Navbar() {
           </MenubarMenu>
           <MenubarMenu>
             <MenubarTrigger>
-              <LuPenSquare />
-              Enroll Now
+              <Link to="login" className="flex align-middle">
+                <LuPenSquare />
+                Enroll Now
+              </Link>
             </MenubarTrigger>
           </MenubarMenu>
         </Menubar>
